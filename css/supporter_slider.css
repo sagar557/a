@@ -1,14 +1,16 @@
 .circle{
     margin-top: 15%;
-display: flex; 
-flex-direction: row;
-flex-wrap: wrap;
-justify-content: space-evenly;
-padding: 0% 5%;
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 0% 5%;
 
 }
 /* -------------------------------codepen css slider------------------------------------------------ */
-
+.item{
+    height: auto;
+}
 /*Hover Fall Effect*/
 .fall-item {
 width: 100%;
@@ -28,8 +30,9 @@ left: 0;
 .fall-item img {
 display: block;
 position: relative;
-width: 100%;
-height: auto;
+/* width: 100%; */
+/* height: auto; */
+object-fit: fill;
 }
 .fall-item h2 {
 text-transform: uppercase;
